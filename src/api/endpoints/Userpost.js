@@ -7,7 +7,9 @@ const Userpost = () => {
   const [password,setPassword] = React.useState('')
 
   return (
-    <div></div>
+    <div>
+      <input type="text" value={username} onChange= ></input>
+    </div>
   )
 }
 
