@@ -8,17 +8,18 @@ import Api from './api/Api';
 import Login from './Components/Login/Login';
 
 const App = () => {
-  return <header>
-    <BrowserRouter>
-      <Header/>
-      <Routes>
-        <Route path="/" element ={<Home />} />
-        <Route path="/login/*" element ={<Login />} />
-
-      </Routes>
-      <Footer/>
-    </BrowserRouter>
-    </header>;
-};
+  return (
+    <div>
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          <Route path="/" element ={<Home />} />
+          <Route path="/login/*" element ={<Login />} />
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
+    </div>
+  );
+}
 
 export default App;
