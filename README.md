@@ -27,9 +27,9 @@ To set up a development environment for Make for Dog, follow these steps:
 Clone the repository: git clone https://github.com/eduardowanderleyde/dog-website.git
 
 Install development dependencies:
-First  download the NODE JS
-
-GitHub Repository
+-First  download the NODE JS
+-Put in the terminal "npm install"
+-Run with "npm run dev"
 
 Contributing
 Fork this repository (https://github.com/eduardowanderleyde/dog-website.git).
