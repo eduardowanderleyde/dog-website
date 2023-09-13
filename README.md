@@ -1,8 +1,35 @@
-# React + Vite
+# Make for Dog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> This project is a website and social media platform designed for both humans and their furry companions. It provides various features, including an API, JWT authentication, infinite scrolling, integration with external libraries, build instructions, and loading capabilities.
 
-Currently, two official plugins are available:
+![Website Screenshot](LoginPage.jpeg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+To install Make for Dog on OS X & Linux, use the following command:
+
+```sh
+npm install dog-website --save
+```
+For Windows, you can configure it by editing autoexec.bat.
+
+Usage Example
+Here are a few motivating examples of how Make for Dog can be used:
+
+Share adorable pictures of your dog with the community.
+Find dog-friendly places and events in your area.
+Connect with fellow dog lovers and arrange playdates for your pets.
+For more examples and detailed usage instructions, please refer to the Wiki.
+
+Development Setup
+To set up a development environment for Make for Dog, follow these steps:
+
+Clone the repository: git clone https://github.com/eduardowanderleyde/dog-website.git
+
+Install development dependencies:
+-First  download the NODE JS
+-Put in the terminal "npm install"
+-Run with "npm run dev"
+
+Contributing
+Fork this repository (https://github.com/eduardowanderleyde/dog-website.git).
