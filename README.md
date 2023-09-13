@@ -9,7 +9,7 @@
 To install Make for Dog on OS X & Linux, use the following command:
 
 ```sh
-npm install my-crazy-module --save
+npm install dog-website --save
 ```
 For Windows, you can configure it by editing autoexec.bat.
 
