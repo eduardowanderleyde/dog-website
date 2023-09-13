@@ -32,4 +32,4 @@ First  download the NODE JS
 GitHub Repository
 
 Contributing
-Fork this repository ([https://github.com/yourname/yourproject/fork](https://github.com/eduardowanderleyde/dog-website.git)).
+Fork this repository (https://github.com/eduardowanderleyde/dog-website.git).
