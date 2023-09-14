@@ -6,7 +6,6 @@
 
 ![Website Screenshot](Register.jpeg)
 
-
 ## Development Setup
 To set up a development environment for Make for Dog, follow these steps:
 
