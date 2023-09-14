@@ -4,6 +4,8 @@
 
 ![Website Screenshot](LoginPage.jpeg)
 
+![Website Screenshot](Register.jpeg)
+
 ## Installation
 
 To install Make for Dog on OS X & Linux, use the following command:
