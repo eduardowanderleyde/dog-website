@@ -13,8 +13,14 @@ Clone the repository: git clone https://github.com/eduardowanderleyde/dog-websit
 
 Install development dependencies:
 -First  download the NODE JS
--Put in the terminal "npm install"
--Run with "npm run dev"
+-Put in the terminal:
+```sh
+npm install
+```
+-Run with:
+```sh
+npm run dev
+```
 
 Contributing
 
