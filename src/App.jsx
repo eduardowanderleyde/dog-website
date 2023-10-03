@@ -25,7 +25,7 @@ const App = () => {
                 <User/>
               </ProtectedRoute>
             }
-          />
+        />
         </Routes>
         <Footer/>
         </UserStorage>
