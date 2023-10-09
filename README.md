@@ -5,7 +5,7 @@
 ![Website Screenshot](LoginPage.jpeg)
 
 
-![Website Screenshot](MenuAccount.png)
+![Website Screenshot](MenuAccount.jpeg)
 
 ![Website Screenshot](Register.jpeg)
 
