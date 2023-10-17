@@ -13,7 +13,7 @@ const {data} = React.useContext(UserContext);
 
   return (
   <section className='container'>
-    <Head title = "Minha Conta" />
+    <Head title = "My account" />
     <UserHeader/>
     <Routes>
     <Route path="/" element={<Feed user={data.id}/>} />

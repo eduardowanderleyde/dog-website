@@ -45,9 +45,9 @@ const UserPhotoPost = () => {
     <section className={`${styles.photoPost} animeLeft`}>
       <Head title="Poste sua foto" />
       <form onSubmit={handleSubmit}>
-        <Input label="Nome" type="text" name="nome" {...nome}/>
-        <Input label="Peso" type="number" name="peso" {...peso}/>
-        <Input label="Idade" type="number" name="idade" {...idade}/>
+        <Input label="Name" type="text" name="nome" {...nome}/>
+        <Input label="Weight" type="number" name="peso" {...peso}/>
+        <Input label="Age" type="number" name="idade" {...idade}/>
         <input
          className={styles.file}
         type="file"
@@ -56,9 +56,9 @@ const UserPhotoPost = () => {
         onChange={handleImgChange}
       />
       {loading ? (
-      <Button disabled>Enviando...</Button>
+      <Button disabled>Sending...</Button>
         ) : ( 
-       <Button>Enviar</Button>
+       <Button>Send</Button>
        )}
        <Error error={error}/>
       </form>
