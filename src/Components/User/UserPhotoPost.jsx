@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './UserPhotoPost.module.css'
-import useForm from '../../Hooks/UseForm'
+import useForm from '../../Hooks/useForm'
 import useFetch from '../../Hooks/useFetch'
 import Error from '../Helper/Error'
 import Input from '../Forms/Input'
