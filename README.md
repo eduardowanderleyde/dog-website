@@ -2,6 +2,8 @@
 
 > This project is a website and social media platform designed for both humans and their furry companions. It provides various features, including an API, JWT authentication, infinite scrolling, integration with external libraries, build instructions, and loading capabilities.
 
+https://github.com/eduardowanderleyde/dog-website/assets/103546791/c60c39de-1a64-4064-a0b6-6c75102300bf
+
 ![Website Screenshot](LoginPage.jpeg)
 
 
