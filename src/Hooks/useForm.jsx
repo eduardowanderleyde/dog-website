@@ -21,7 +21,7 @@ const useForm = (type) => {
   const [value, setValue] = React.useState('');
   const [error,setError] = React.useState(null);
 
-  function validate(value) {
+  const validate = React.useCallback((value) => {
     if (type === false) return true;
     if (value.length === 0) {
       setError('Preencha um valor')
@@ -33,19 +33,22 @@ const useForm = (type) => {
       setError(null)
       return true;
     }
-  }
-  
-  function onChange({ target }) {
-    if (error) validate(target.value);
+  }, [type]);
+
+  const onChange = React.useCallback(({ target }) => {
     setValue(target.value);
-  }
-  
+    validate(target.value);
+  }, [validate]);
+
   return {
     value,
-    setValue,
+    setValue: (newValue) => {
+      setValue(newValue);
+      validate(newValue);
+    },
     onChange,
     error,
-    validate : () => validate(value),
+    validate: () => validate(value),
     onBlur: () => validate(value),
   };
 };
